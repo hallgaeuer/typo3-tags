@@ -4,7 +4,7 @@ return [
     'ctrl' => [
         'label' => 'name',
         'tstamp' => 'tstamp',
-        'title' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_db.xlf:tx_tags_domain_model_tag',
+        'title' => 'LLL:EXT:tags/Resources/Private/Language/locallang_db.xlf:tx_tags_domain_model_tag',
         'crdate' => 'crdate',
         'delete' => 'deleted',
         'rootLevel' => '1',
@@ -17,7 +17,7 @@ return [
     ],
     'columns' => [
         'name' => [
-            'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_db.xlf:tx_tags_domain_model_tag.name',
+            'label' => 'LLL:EXT:tags/Resources/Private/Language/locallang_db.xlf:tx_tags_domain_model_tag.name',
             'config' => [
                 'eval' => 'unique',
                 'type' => 'input',

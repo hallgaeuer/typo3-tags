@@ -9,7 +9,7 @@
             <trans-unit id="tx_tags_domain_model_tag.name" resname="tx_tags_domain_model_tag.name">
                 <source>Name</source>
             </trans-unit>
-            <trans-unit id="pages.tx_tags_tags" resname="pages.tx_tags_tags">
+            <trans-unit id="general.tagField" resname="general.tagField">
                 <source>Tags</source>
             </trans-unit>
         </body>
