@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:tags/Resources/Private/Language/Modules/locallang_db.xlf" date="2024-08-06T18:20:51Z" product-name="tags">
+        <header/>
+        <body>
+            <trans-unit id="tx_tags_domain_model_tag" resname="tx_tags_domain_model_tag">
+                <source>Tag</source>
+            </trans-unit>
+            <trans-unit id="tx_tags_domain_model_tag.name" resname="tx_tags_domain_model_tag.name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="pages.tx_tags_tags" resname="pages.tx_tags_tags">
+                <source>Tags</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
