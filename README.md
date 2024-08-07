@@ -29,6 +29,7 @@ With this extension you can instead just *tag* the page with the tag "imprint" a
 ## Roadmap
 
 * Tagging and rendering of content elements by tag
+* Scoping when retrieving tagged data
 * Retrieving records and even extbase models by tag
 * API to programmatically add and remove tags 
 * Nicer display of tags in TYPO3 backend (currently just TCA type="group" configuration)
