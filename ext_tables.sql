@@ -3,9 +3,12 @@ CREATE TABLE tx_tags_domain_model_tag (
 );
 
 CREATE TABLE tx_tags_domain_model_tag_mm (
-    table_name VARCHAR(64) DEFAULT '' NOT NULL,
-    field_name VARCHAR(64) DEFAULT '' NOT NULL,
+    uid_local INT(11) UNSIGNED DEFAULT 0 NOT NULL,
+    uid_foreign INT(11) UNSIGNED DEFAULT 0 NOT NULL,
+    type VARCHAR(128) DEFAULT '' NOT NULL,
 
-    KEY relation_foreign (table_name, uid_foreign),
-    KEY relation_local (table_name, uid_local)
+    KEY relation_foreign (type, uid_foreign),
+    KEY relation_local (type, uid_local),
+
+    PRIMARY KEY (uid_local, uid_foreign, type)
 );

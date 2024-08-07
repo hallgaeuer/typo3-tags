@@ -10,7 +10,7 @@ trait HasTagArgumentsTrait
 
         $this->registerArgument('tag', 'string', 'Tag to look for', false);
         $this->registerArgument('tags', 'array', 'Tags to look for', false);
-        $this->registerArgument('tableName', 'string', 'Tags to look for', false, 'pages');
+        $this->registerArgument('type', 'string', 'Tags to look for', false, 'pages');
     }
 
     protected function getTagArguments(): array

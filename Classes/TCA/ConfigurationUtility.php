@@ -17,8 +17,7 @@ class ConfigurationUtility
                     'l10n_mode' => 'exclude',
                     'label' => 'LLL:EXT:tags/Resources/Private/Language/locallang_db.xlf:general.tagField',
                     'config' => static::getTagFieldConfiguration(
-                        $tableName,
-                        $fieldName
+                        $tableName
                     )
                 ],
             ]
@@ -31,8 +30,7 @@ class ConfigurationUtility
     }
 
     public static function getTagFieldConfiguration(
-        string $tableName,
-        string $fieldName
+        string $tableName
     ): array
     {
        return [
@@ -41,8 +39,7 @@ class ConfigurationUtility
             'allowed' => 'tx_tags_domain_model_tag',
             'MM' => 'tx_tags_domain_model_tag_mm',
             'MM_match_fields' => [
-                'table_name' => $tableName,
-                'field_name' => $fieldName,
+                'type' => $tableName,
             ],
             'suggestOptions' => [
                 'default' => [
